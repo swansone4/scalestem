@@ -83,39 +83,13 @@ export default function Home() {
         <div className="grid items-start gap-10 md:grid-cols-2">
           <div>
             <h2 className="heading-serif text-2xl font-semibold">About Me</h2>
-
-            <div className="mt-6 max-w-md md:mt-8">
-              <div className="card rounded-xl p-5 heading-serif text-xs md:text-sm leading-snug text-white/85 space-y-3">
-                <div>
-                  <p className="font-semibold">Ph.D. Student, Nuclear Engineering</p>
-                  <p>University of Florida, Gainesville, FL (2024–Present)</p>
-                </div>
-                <hr className="border-white/10" />
-                <div>
-                  <p className="font-semibold">Research Fellow, Oak Ridge National Laboratory</p>
-                  <p>Nuclear Physics Eastern Tennessee Fellowship (2023–2024)</p>
-                </div>
-                <hr className="border-white/10" />
-                <div>
-                  <p className="font-semibold">SURF Research Fellow, National Institute of Standards and Technology</p>
-                  <p>Core loading optimization and criticality safety (Summer 2024)</p>
-                </div>
-                <hr className="border-white/10" />
-                <div>
-                  <p className="font-semibold">B.S., Physics</p>
-                  <p>Montclair State University, NJ (2021–2025)</p>
-                </div>
-                <hr className="border-white/10" />
-                <div>
-                  <p className="font-semibold">Independent & Group Research Projects:</p>
-                  <p>Machine learning for reactor core design • Quantitative NMR techniques • Computational physics</p>
-                </div>
-                <hr className="border-white/10" />
-                <div>
-                  <p className="font-semibold">Conference Presenter:</p>
-                  <p>Division of Nuclear Physics, National Society of Black Physicists, University Symposia</p>
-                </div>
-              </div>
+            <div className="heading-serif mt-4 max-w-2xl text-[15px] leading-relaxed text-white/85 md:text-base">
+              <p>
+                I nearly flunked out of my physics degree at a small state university in 2021. But through a combination of grit, late nights, and sheer persistence, I landed a research opportunity at Oak Ridge National Laboratory less than a year later. That break changed everything—it led to another internship at the National Institute of Standards and Technology, and ultimately to a PhD program at the University of Florida.
+              </p>
+              <p className="mt-4">
+                Having navigated this non-traditional, often uncertain path myself, I’m now dedicated to helping other students who find themselves lost, overlooked, or underestimated in STEM—because I know, firsthand, how transformative the right mentorship and opportunity can be.
+              </p>
             </div>
           </div>
           <div className="justify-self-center md:pt-8">
