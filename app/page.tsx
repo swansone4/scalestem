@@ -80,15 +80,41 @@ export default function Home() {
         <div className="grid items-center gap-8 md:grid-cols-3">
           <div className="md:col-span-2">
             <h2 className="heading-serif text-2xl font-semibold">About Me</h2>
-            <p className="mt-4 text-white/80">
-              I came from a small university and found my way to a national lab PhD. Scale STEM reflects the mentorship and project-based guidance I wished I’d had earlier—clear goals, real research, and support to communicate like a scientist.
-            </p>
-            <ul className="mt-4 grid gap-2 text-sm text-white/80 md:grid-cols-2">
-              <li>• National lab PhD researcher</li>
-              <li>• Mentored dozens of students</li>
-              <li>• Research communication coaching</li>
-              <li>• Inclusive, supportive pedagogy</li>
-            </ul>
+            <div className="heading-serif mt-4 text-white/85 leading-relaxed">
+              <p>
+                I nearly flunked out of my physics degree at a small state university in 2021. But through a combination of grit, late nights, and sheer persistence, I landed a research opportunity at Oak Ridge National Laboratory less than a year later. That break changed everything—it led to another internship at the National Institute of Standards and Technology, and ultimately to a PhD program at the University of Florida.
+              </p>
+              <p className="mt-4">
+                Having navigated this non-traditional, often uncertain path myself, I’m now dedicated to helping other students who find themselves lost, overlooked, or underestimated in STEM—because I know, firsthand, how transformative the right mentorship and opportunity can be.
+              </p>
+            </div>
+
+            <div className="heading-serif mt-8 space-y-4 text-white/85">
+              <div>
+                <p className="font-semibold">Ph.D. Student, Nuclear Engineering</p>
+                <p>University of Florida, Gainesville, FL (2024–Present)</p>
+              </div>
+              <div>
+                <p className="font-semibold">Research Fellow, Oak Ridge National Laboratory</p>
+                <p>Nuclear Physics Eastern Tennessee Fellowship (2023–2024)</p>
+              </div>
+              <div>
+                <p className="font-semibold">SURF Research Fellow, National Institute of Standards and Technology</p>
+                <p>Core loading optimization and criticality safety (Summer 2024)</p>
+              </div>
+              <div>
+                <p className="font-semibold">B.S., Physics</p>
+                <p>Montclair State University, NJ (2021–2025)</p>
+              </div>
+              <div>
+                <p className="font-semibold">Independent & Group Research Projects:</p>
+                <p>Machine learning for reactor core design - Quantitative NMR techniques - Computational physics</p>
+              </div>
+              <div>
+                <p className="font-semibold">Conference Presenter:</p>
+                <p>Division of Nuclear Physics, National Society of Black Physicists, University Symposia</p>
+              </div>
+            </div>
           </div>
           <div className="justify-self-center">
             <Image src="/static/images/founder-placeholder.svg" alt="Founder headshot" width={220} height={220} className="rounded-2xl" />
