@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { HowItWorks } from "@/components/HowItWorks";
 import { KeyDetails } from "@/components/KeyDetails";
+import { QuoteRotator } from "@/components/QuoteRotator";
 
 export default function Home() {
   return (
@@ -17,7 +18,6 @@ export default function Home() {
             <a href="#how" className="hover:opacity-80">How it works</a>
             <a href="#program" className="hover:opacity-80">Program</a>
             <a href="#about" className="hover:opacity-80">About Me</a>
-            <a href="#apply" className="hover:opacity-80">Apply</a>
           </nav>
           <div className="flex items-center gap-3">
             <Link href="#apply" className="rounded-full px-4 py-2 text-sm font-medium bg-[--accent-green] text-white hover:opacity-90">
@@ -56,6 +56,9 @@ export default function Home() {
             <p className="mt-3 text-white/80">
               Most STEM students lack opportunities, connections, and research experience—especially those at smaller or less-resourced schools.
             </p>
+            <div className="mt-4 border-t border-white/10 pt-4">
+              <QuoteRotator />
+            </div>
           </div>
           <div className="card rounded-2xl p-6">
             <h2 className="text-xl font-semibold">Our Solution</h2>

@@ -38,10 +38,11 @@ export function HowItWorks() {
   ];
 
   const projects = [
-    { name: "Monte Carlo Neutron Model", icon: "atom" },
-    { name: "Rocket Trajectory Simulation", icon: "rocket" },
-    { name: "Materials Discovery with ML", icon: "ml" },
-    { name: "AI-Driven Energy Forecasting", icon: "ai" },
+    { name: "Monte Carlo Neutron Transport for Shielding" },
+    { name: "Rocket Trajectory Optimization with SciPy" },
+    { name: "Graph Neural Networks for Materials Discovery" },
+    { name: "AI-Driven Energy Load Forecasting" },
+    { name: "Visualization of Magnetic Field Turbulence" },
   ];
 
   const iconSrc = (key: string) => `/static/images/icon-${key}.svg`;
@@ -76,27 +77,14 @@ export function HowItWorks() {
       </div>
 
       {/* Project tiles */}
-      <Reveal>
-        <h3 className="mt-12 text-lg font-semibold heading-serif">Build Your Research Project</h3>
-      </Reveal>
-      <Typewriter
-        className="mt-2 block text-sm text-white/80"
-        items={projects.map((p) => p.name)}
-      />
-      <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.slice(0, 4).map((p, idx) => (
-          <Reveal key={p.name} delayMs={idx * 80}>
-            <div className="group card rounded-2xl p-5 transition-transform hover:-translate-y-1">
-              <div className="flex items-center gap-3">
-                <Image src={iconSrc(p.icon)} alt="" width={24} height={24} />
-                <p className="text-sm font-medium">{p.name}</p>
-              </div>
-              <button className="mt-4 inline-flex items-center rounded-full bg-[--accent-blue] px-3 py-1 text-xs font-semibold text-white opacity-0 transition-opacity group-hover:opacity-100">
-                Learn more
-              </button>
-            </div>
-          </Reveal>
-        ))}
+      <div className="mt-12 text-center">
+        <Reveal>
+          <h3 className="text-lg font-semibold heading-serif">Build Your Research Project</h3>
+        </Reveal>
+        <Typewriter
+          className="mt-2 mx-auto block text-base text-white/80"
+          items={projects.map((p) => p.name)}
+        />
       </div>
 
       {/* Removed extra sales/FAQ content per requirements */}
