@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { HowItWorks } from "@/components/HowItWorks";
 
 export default function Home() {
   return (
@@ -64,6 +65,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* How it Works - interactive */}
+      <HowItWorks />
 
       {/* Founder */}
       <section id="founder" className="mx-auto container-width px-6 py-16 md:py-20">
