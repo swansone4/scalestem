@@ -37,11 +37,10 @@ export function HowItWorks() {
   ];
 
   const projects = [
-    { name: "Rocket Trajectory Optimization with Python", icon: "rocket" },
-    { name: "Monte Carlo Neutron Simulation", icon: "atom" },
-    { name: "Machine Learning for Materials Discovery", icon: "ml" },
+    { name: "Monte Carlo Neutron Model", icon: "atom" },
+    { name: "Rocket Trajectory Simulation", icon: "rocket" },
+    { name: "Materials Discovery with ML", icon: "ml" },
     { name: "AI-Driven Energy Forecasting", icon: "ai" },
-    { name: "Visualization of Magnetic Field Fluctuations", icon: "viz" },
   ];
 
   const iconSrc = (key: string) => `/static/images/icon-${key}.svg`;
@@ -95,29 +94,7 @@ export function HowItWorks() {
         ))}
       </div>
 
-      {/* Mini-FAQ / carousel-like list */}
-      <Reveal>
-        <h3 className="mt-12 text-lg font-semibold">What else do we offer?</h3>
-      </Reveal>
-      <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {[
-          "Application support",
-          "Personal statement review",
-          "Conference strategies",
-          "Internship search tips",
-          "Peer feedback",
-          "Networking events",
-        ].map((item, idx) => (
-          <Reveal key={item} delayMs={idx * 50}>
-            <div className="card rounded-xl px-4 py-3 text-sm">
-              <div className="flex items-center gap-2">
-                <span className="h-1.5 w-1.5 rounded-full bg-[--accent-gold]"></span>
-                {item}
-              </div>
-            </div>
-          </Reveal>
-        ))}
-      </div>
+      {/* Removed extra sales/FAQ content per requirements */}
     </section>
   );
 }

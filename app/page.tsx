@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { HowItWorks } from "@/components/HowItWorks";
+import { KeyDetails } from "@/components/KeyDetails";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
           <Image src="/static/images/grid.svg" alt="" fill className="object-cover" />
         </div>
         <div className="relative mx-auto container-width px-6 py-20 md:py-28">
-          <h1 className="max-w-3xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+          <h1 className="heading-serif max-w-4xl text-4xl font-bold leading-tight tracking-tight md:text-6xl">
             Unlock Your Potential. Connect With Mentors. Land Impactful STEM Careers.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-white/80">
@@ -69,13 +70,16 @@ export default function Home() {
       {/* How it Works - interactive */}
       <HowItWorks />
 
+      {/* Key Details */}
+      <KeyDetails />
+
       {/* Founder */}
       <section id="founder" className="mx-auto container-width px-6 py-16 md:py-20">
         <div className="grid items-center gap-8 md:grid-cols-3">
           <div className="md:col-span-2">
-            <h2 className="text-2xl font-semibold">Founder’s Story</h2>
+            <h2 className="heading-serif text-2xl font-semibold">Founder’s Story</h2>
             <p className="mt-4 text-white/80">
-              From a small university to a national lab PhD—this program is built on lived experience finding mentors, building projects, and breaking into research communities.
+              I came from a small university and found my way to a national lab PhD. Scale STEM reflects the mentorship and project-based guidance I wished I’d had earlier—clear goals, real research, and support to communicate like a scientist.
             </p>
             <ul className="mt-4 grid gap-2 text-sm text-white/80 md:grid-cols-2">
               <li>• National lab PhD researcher</li>
