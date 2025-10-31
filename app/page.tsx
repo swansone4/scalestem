@@ -128,7 +128,7 @@ export default function Home() {
           </div>
           <div className="justify-self-center">
             <Image
-              src="/static/images/about.jpg"
+              src="https://media.licdn.com/dms/image/v2/D4E03AQHubahRdPTlkg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1700243817419?e=1763596800&v=beta&t=I3AqM49fVliSUCi_IED32nJMsJAjh0qD3njRn3_xQJ0"
               alt="About photo"
               width={260}
               height={260}
