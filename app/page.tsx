@@ -127,7 +127,13 @@ export default function Home() {
             </div>
           </div>
           <div className="justify-self-center">
-            <Image src="/static/images/founder-placeholder.svg" alt="Founder headshot" width={220} height={220} className="rounded-2xl" />
+            <Image
+              src="/static/images/about.jpg"
+              alt="About photo"
+              width={260}
+              height={260}
+              className="rounded-2xl object-cover grayscale-[20%]"
+            />
           </div>
         </div>
       </section>
