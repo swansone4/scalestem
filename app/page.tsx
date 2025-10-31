@@ -36,12 +36,15 @@ export default function Home() {
           <h1 className="heading-serif max-w-4xl text-4xl font-bold leading-tight tracking-tight md:text-6xl">
             Unlock Your Potential. Connect With Mentors. Land Impactful STEM Careers.
           </h1>
+          <div className="mt-3">
+            <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-[--accent-gold]">Free</span>
+          </div>
           <p className="mt-6 max-w-2xl text-lg text-white/80">
             A 6-week mentorship and research accelerator for students—especially from smaller or less-resourced schools—to gain projects, connections, and confidence.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link href="#apply" className="rounded-full bg-[--accent-blue] px-6 py-3 text-sm font-semibold text-white hover:opacity-90">
-              Apply for Cohort 1
+              Apply for Cohort 2026
             </Link>
             <span className="text-sm text-white/70">Deadline: Dec 15</span>
           </div>
