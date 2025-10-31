@@ -89,30 +89,37 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="heading-serif mt-8 space-y-4 text-white/85">
-              <div>
-                <p className="font-semibold">Ph.D. Student, Nuclear Engineering</p>
-                <p>University of Florida, Gainesville, FL (2024–Present)</p>
-              </div>
-              <div>
-                <p className="font-semibold">Research Fellow, Oak Ridge National Laboratory</p>
-                <p>Nuclear Physics Eastern Tennessee Fellowship (2023–2024)</p>
-              </div>
-              <div>
-                <p className="font-semibold">SURF Research Fellow, National Institute of Standards and Technology</p>
-                <p>Core loading optimization and criticality safety (Summer 2024)</p>
-              </div>
-              <div>
-                <p className="font-semibold">B.S., Physics</p>
-                <p>Montclair State University, NJ (2021–2025)</p>
-              </div>
-              <div>
-                <p className="font-semibold">Independent & Group Research Projects:</p>
-                <p>Machine learning for reactor core design - Quantitative NMR techniques - Computational physics</p>
-              </div>
-              <div>
-                <p className="font-semibold">Conference Presenter:</p>
-                <p>Division of Nuclear Physics, National Society of Black Physicists, University Symposia</p>
+            <div className="mt-6 max-w-md">
+              <div className="card rounded-xl p-5 heading-serif text-xs md:text-sm leading-snug text-white/85 space-y-3">
+                <div>
+                  <p className="font-semibold">Ph.D. Student, Nuclear Engineering</p>
+                  <p>University of Florida, Gainesville, FL (2024–Present)</p>
+                </div>
+                <hr className="border-white/10" />
+                <div>
+                  <p className="font-semibold">Research Fellow, Oak Ridge National Laboratory</p>
+                  <p>Nuclear Physics Eastern Tennessee Fellowship (2023–2024)</p>
+                </div>
+                <hr className="border-white/10" />
+                <div>
+                  <p className="font-semibold">SURF Research Fellow, National Institute of Standards and Technology</p>
+                  <p>Core loading optimization and criticality safety (Summer 2024)</p>
+                </div>
+                <hr className="border-white/10" />
+                <div>
+                  <p className="font-semibold">B.S., Physics</p>
+                  <p>Montclair State University, NJ (2021–2025)</p>
+                </div>
+                <hr className="border-white/10" />
+                <div>
+                  <p className="font-semibold">Independent & Group Research Projects:</p>
+                  <p>Machine learning for reactor core design • Quantitative NMR techniques • Computational physics</p>
+                </div>
+                <hr className="border-white/10" />
+                <div>
+                  <p className="font-semibold">Conference Presenter:</p>
+                  <p>Division of Nuclear Physics, National Society of Black Physicists, University Symposia</p>
+                </div>
               </div>
             </div>
           </div>
