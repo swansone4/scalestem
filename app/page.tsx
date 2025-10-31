@@ -80,19 +80,11 @@ export default function Home() {
 
       {/* About Me */}
       <section id="about" className="mx-auto container-width px-6 py-16 md:py-20">
-        <div className="grid items-center gap-8 md:grid-cols-3">
-          <div className="md:col-span-2">
+        <div className="grid items-start gap-10 md:grid-cols-2">
+          <div>
             <h2 className="heading-serif text-2xl font-semibold">About Me</h2>
-            <div className="heading-serif mt-4 text-white/85 leading-relaxed">
-              <p>
-                I nearly flunked out of my physics degree at a small state university in 2021. But through a combination of grit, late nights, and sheer persistence, I landed a research opportunity at Oak Ridge National Laboratory less than a year later. That break changed everything—it led to another internship at the National Institute of Standards and Technology, and ultimately to a PhD program at the University of Florida.
-              </p>
-              <p className="mt-4">
-                Having navigated this non-traditional, often uncertain path myself, I’m now dedicated to helping other students who find themselves lost, overlooked, or underestimated in STEM—because I know, firsthand, how transformative the right mentorship and opportunity can be.
-              </p>
-            </div>
 
-            <div className="mt-6 max-w-md">
+            <div className="mt-6 max-w-md md:mt-8">
               <div className="card rounded-xl p-5 heading-serif text-xs md:text-sm leading-snug text-white/85 space-y-3">
                 <div>
                   <p className="font-semibold">Ph.D. Student, Nuclear Engineering</p>
@@ -126,7 +118,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="justify-self-center">
+          <div className="justify-self-center md:pt-8">
             <Image
               src="https://media.licdn.com/dms/image/v2/D4E03AQHubahRdPTlkg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1700243817419?e=1763596800&v=beta&t=I3AqM49fVliSUCi_IED32nJMsJAjh0qD3njRn3_xQJ0"
               alt="About photo"
