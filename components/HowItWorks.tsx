@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Reveal } from "@/components/Reveal";
+import { Typewriter } from "@/components/Typewriter";
 
 export function HowItWorks() {
   const steps = [
@@ -76,8 +77,12 @@ export function HowItWorks() {
 
       {/* Project tiles */}
       <Reveal>
-        <h3 className="mt-12 text-lg font-semibold">Sample projects</h3>
+        <h3 className="mt-12 text-lg font-semibold heading-serif">Build Your Research Project</h3>
       </Reveal>
+      <Typewriter
+        className="mt-2 block text-sm text-white/80"
+        items={projects.map((p) => p.name)}
+      />
       <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {projects.slice(0, 4).map((p, idx) => (
           <Reveal key={p.name} delayMs={idx * 80}>

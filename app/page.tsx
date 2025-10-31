@@ -16,8 +16,7 @@ export default function Home() {
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#how" className="hover:opacity-80">How it works</a>
             <a href="#program" className="hover:opacity-80">Program</a>
-            <a href="#founder" className="hover:opacity-80">Founder</a>
-            <a href="#results" className="hover:opacity-80">Results</a>
+            <a href="#about" className="hover:opacity-80">About Me</a>
             <a href="#apply" className="hover:opacity-80">Apply</a>
           </nav>
           <div className="flex items-center gap-3">
@@ -73,11 +72,11 @@ export default function Home() {
       {/* Key Details */}
       <KeyDetails />
 
-      {/* Founder */}
-      <section id="founder" className="mx-auto container-width px-6 py-16 md:py-20">
+      {/* About Me */}
+      <section id="about" className="mx-auto container-width px-6 py-16 md:py-20">
         <div className="grid items-center gap-8 md:grid-cols-3">
           <div className="md:col-span-2">
-            <h2 className="heading-serif text-2xl font-semibold">Founder’s Story</h2>
+            <h2 className="heading-serif text-2xl font-semibold">About Me</h2>
             <p className="mt-4 text-white/80">
               I came from a small university and found my way to a national lab PhD. Scale STEM reflects the mentorship and project-based guidance I wished I’d had earlier—clear goals, real research, and support to communicate like a scientist.
             </p>
